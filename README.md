@@ -153,6 +153,67 @@ The repository follows the screening workflow below:
 6. **Score and prioritize relevant papers**
 
 ---
+---
+
+# Literature Search Queries
+
+The following queries were used to retrieve the initial set of papers from the scientific databases limited to 2016-2026.
+
+## PubMed
+
+**Query**
+
+( ("autism spectrum disorder"[Title/Abstract] OR autism[Title/Abstract] OR ASD[Title/Abstract]) )
+AND
+( "gait"[Title/Abstract] OR "gait analysis"[Title/Abstract] OR "motor stereotyp*"[Title/Abstract] OR "repetitive motor"[Title/Abstract] OR "repetitive movement*"[Title/Abstract] OR "stereotyped behavior"[Title/Abstract] OR "motor pattern*"[Title/Abstract] OR "movement disorder*"[Title/Abstract] )
+AND
+( "machine learning"[Title/Abstract] OR "deep learning"[Title/Abstract] OR "computer vision"[Title/Abstract] OR "pose estimation"[Title/Abstract] OR "skeleton tracking"[Title/Abstract] OR "neural network"[Title/Abstract] )
+
+
+**Results**
+
+36 papers retrieved.
+
+---
+
+## Scopus
+
+**Query**
+TITLE-ABS-KEY(
+("autism spectrum disorder" OR autism OR ASD)
+AND
+(gait OR "gait analysis" OR stereotypy OR stereotypies
+OR "repetitive motor" OR "repetitive movement"
+OR "stereotyped behavior" OR "motor pattern"
+OR "movement disorder")
+AND
+("machine learning" OR "deep learning"
+OR "computer vision" OR "pose estimation"
+OR "skeleton tracking" OR "neural network")
+)
+
+
+**Results**
+
+150 papers retrieved.
+
+After applying database filters: Limited to Computer Science, Engineering, Medicine, Psychology, Health Professions
+
+119 papers remained.
+
+---
+
+## IEEE Xplore
+
+**Query**
+
+("All Metadata":"autism" OR "All Metadata":"autism spectrum disorder")
+AND
+("All Metadata":"gait analysis" OR "All Metadata":"motor stereotypy" OR "All Metadata":"repetitive movement" OR "All Metadata":"stereotypical behavior")
+AND
+("All Metadata":"machine learning" OR "All Metadata":"deep learning" OR "All Metadata":"computer vision" OR "All Metadata":"neural network")
+
+13 papers retrieved.
 
 # Purpose
 
